@@ -1,0 +1,74 @@
+body{
+    background-color: aqua;
+}
+h1{
+    color:cadetblue;
+
+    text-shadow: 5px 5px 10px rgb(143, 136, 136);
+}
+.tarjeta{
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 15px;
+    width: 70%;
+    position: absolute;
+    margin-left: 15%;
+    margin-bottom: 40px;
+    box-shadow: 5px 5px 10px black;
+}
+.tarjeta p{
+    background-color:blanchedalmond;
+    font-size: large;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+    text-shadow: 5px 5px 10px rgb(131, 120, 120);
+}
+.list{
+    position: relative;
+    background-color: bisque;
+    width: 14%;
+    color: cadetblue;
+    margin-top: 6%;
+    border: 3px solid cadetblue;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
+    text-shadow: 5px 5px 10px rgb(116, 112, 112);
+}
+
+.boton{
+    border: 3px solid cadetblue;
+    border-radius: 15px;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 10px black;
+    text-shadow: 5px 5px 10px rgb(161, 155, 155);
+}
+.boton:hover{
+    background-color: cadetblue;
+    color: aliceblue;
+    width: 70%;
+}
+.financiacion{
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 15px;
+    width: 70%;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 3%;
+    box-shadow: 5px 5px 10px black;
+    text-shadow: 5px 5px 10px rgb(114, 106, 106);
+}
+.pago{
+    background-color: black;
+    color: aliceblue;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+
+}

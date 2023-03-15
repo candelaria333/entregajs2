@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=}, initial-scale=1.0">
+    <title>carrito compras</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="tarjeta">
+        <h1>PRODUCTOS</h1>
+        <p>En este portal podras buscar nuestros productos. <br> Tambien podras calcular las cuotas de los
+            mismos. </p>
+        <forma>
+            <input class="boton" type="submit" id="miBoton" value="Buscar Precios" onclick="miFuncion()">
+        </forma>
+    </Div>
+    <div class="list">
+        <p>Productos disponibles para buscar: <br>
+            Aceite de oliva<br>
+            Aceite de coco<br>
+            Frutos secos<br>
+            Chocolate vegano<br>
+            Vinos Antiage<br>
+        </p>
+    </Div>
+
+
+    <section id="Financiacion">
+        <form class="financiacion">
+            Monto del producto: <br>
+            <input type="text" id="monto"><br>
+            Número de cuotas: <br>
+            <input type="text" id="anios">
+            <br>
+            <input class="boton" type="button" value="Calcular" onclick="calculate()">
+            <br>
+            <div class="pago">
+            Pago mensual: <output id="pagoMes"></output>
+            </div>
+            <input class="boton" type="button" value="Productos por mayor" onclick="datos()">
+        </form>
+    </section>
+
+</body>
+
+</html>
